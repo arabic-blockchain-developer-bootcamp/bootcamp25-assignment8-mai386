@@ -11,7 +11,7 @@ contract Assignment8 is ERC721URIStorage {
     uint256 private _tokenIdCounter;
     // pass name and symbol of the nft token collection
     constructor() ERC721("MYNFT", "MYN") {
-        
+        _tokenIdCounter = 0;
     }
 
     // make this function visibility: external
